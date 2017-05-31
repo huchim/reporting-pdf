@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFrameworks>net40;net45;netcoreapp1.1</TargetFrameworks>
     <RootNamespace>Jaguar.Reporting.Generators</RootNamespace>
-	  <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Authors>Carlos Jesús Huchim Ahumada</Authors>
     <Company>Jaguar</Company>
     <Description>Permite usar PDF para los reportes.</Description>
