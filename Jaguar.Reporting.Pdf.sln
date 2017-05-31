@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jaguar.Reporting.Pdf", "src\Jaguar.Reporting.Pdf.csproj", "{E91D223A-22DD-461F-95A3-0CAB3D830925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jaguar.Reporting.Pdf.Tests", "Jaguar.Reporting.Pdf.Tests\Jaguar.Reporting.Pdf.Tests.csproj", "{681C6BAD-16E3-4678-A0B7-0297352BCDA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E91D223A-22DD-461F-95A3-0CAB3D830925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91D223A-22DD-461F-95A3-0CAB3D830925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91D223A-22DD-461F-95A3-0CAB3D830925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91D223A-22DD-461F-95A3-0CAB3D830925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{681C6BAD-16E3-4678-A0B7-0297352BCDA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{681C6BAD-16E3-4678-A0B7-0297352BCDA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{681C6BAD-16E3-4678-A0B7-0297352BCDA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{681C6BAD-16E3-4678-A0B7-0297352BCDA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

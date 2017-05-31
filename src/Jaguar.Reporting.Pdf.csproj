@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net40;net45;netcoreapp1.1</TargetFrameworks>
+    <RootNamespace>Jaguar.Reporting.Generators</RootNamespace>
+	  <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Authors>Carlos Jesús Huchim Ahumada</Authors>
+    <Company>Jaguar</Company>
+    <Description>Permite usar PDF para los reportes.</Description>
+    <Copyright>Carlos Jesús Huchim Ahumada</Copyright>
+    <PackageTags>reporting</PackageTags>
+    <PackageReleaseNotes>Beta</PackageReleaseNotes>
+    <Version>1.0.0-alpha1</Version>
+    <PackageProjectUrl>https://github.com/huchim/reporting-pdf</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/huchim/reporting-pdf/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/huchim/reporting-pdf</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <RootNamespace>Jaguar.Reporting</RootNamespace>    
+  </PropertyGroup>
+
+  <!-- Global references. -->
+  <ItemGroup>
+    <PackageReference Include="Jaguar.Reporting" Version="1.0.0-rc3" />
+    <PackageReference Include="Jaguar.Reporting.Html" Version="1.0.0-alpha5" />
+  </ItemGroup>
+  <!-- NET Core Support -->
+  <ItemGroup Condition=" '$(TargetFramework)' == 'netcoreapp1.1' ">	  
+  </ItemGroup>  
+  
+  <!-- NET Framework 4.0 support. -->
+  <ItemGroup Condition="'$(TargetFramework)' == 'net40' OR '$(TargetFramework)' == 'net45'">
+    <PackageReference Include="iTextSharp">
+      <Version>5.5.11</Version>
+    </PackageReference>
+    <PackageReference Include="itextsharp.xmlworker">
+      <Version>5.5.11</Version>
+    </PackageReference>
+  </ItemGroup>
+</Project>
