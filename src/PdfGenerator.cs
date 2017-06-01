@@ -115,11 +115,6 @@ namespace Jaguar.Reporting.Generators
                 cssContent = _html.MergeResources(cssResourceList);
             }
 
-            if (cssContent == null)
-            {
-                throw new Exception("is null!");
-            }            
-
             // Create a stream that we can write to, in this case a MemoryStream
             using (var ms = new MemoryStream())
             {
